@@ -47,7 +47,6 @@ cv2.imwrite('images/labeling3.jpg', img)
 
 # Counting number of objects with holes
 nobj_wh = 0
-current_obj = (0,0)
 for i in range(width):
     for j in range(height):
         if img[i][j] != 255:
