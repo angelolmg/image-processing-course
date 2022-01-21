@@ -60,8 +60,8 @@ def homomorficFilter(val):
     cv2.imshow("homomorfic", img_homomorphic)
 
     # write result to disk
-    cv2.imwrite("images/ex7_mask.png", (255*mymask).astype(np.uint8))
-    cv2.imwrite("images/ex7_homomorphic.png", img_homomorphic)
+    #cv2.imwrite("images/ex7_mask.png", (255*mymask).astype(np.uint8))
+    #cv2.imwrite("images/ex7_homomorphic.png", img_homomorphic)
 
 
 # take ln of image
