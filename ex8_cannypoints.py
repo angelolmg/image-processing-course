@@ -41,7 +41,6 @@ def pointillism(val):
     shuffle(xrange)
     newpoints = np.full_like(img, 255)
 
-
     for i in xrange:
         shuffle(yrange)
         for j in yrange:
