@@ -20,7 +20,6 @@ def homomorficFilter(val):
             fh = (gamah - gamal)*(1 - np.exp(exp)) + gamal
             newmask[i][j] = fh/100
     
-    #mymask = cv2.normalize(newmask, None, alpha=0, beta=1, norm_type=cv2.NORM_MINMAX)
     mymask = newmask
 
     '''
